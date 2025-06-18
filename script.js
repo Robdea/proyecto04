@@ -328,7 +328,25 @@ const vagabond_fan = {
     ]
 }
 
-let users = [david, vagabond_fan];
+const jagaaanArt = {
+    id: "aeeef323123",
+    username: "jag444nArt",
+    iconUser: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2WGCYlXYNZKc593a3CYkA65nOdYoNSNn-YJoTozVnNu-mzr0olzHVL9YIWFQZ7yRWSAhtRhQOaPpZEPVBvMipnp_yNJVneJ65chFla-mOukysc0KKsBhgdblcbi50SZb8FkCmRw/s1600/jagaan-visual-2.jpg",
+    contentHistory: [
+        "https://images.steamusercontent.com/ugc/2054249661363540368/27707CDBC43353BDD0454692459577E3AA8E1B2A/?imw=1024&imh=725&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
+        "https://i.pinimg.com/736x/ad/ec/28/adec2845bffec9678a7c18b579207dc9.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlAD518gVXs5XIBGmHlDyaU8CDZrltmtz7Ww&s",    
+    ],
+    publics:[
+        {
+            comment: "jagaan",
+            contentPublic: "https://i0.wp.com/elpalomitron.com/wp-content/uploads/2020/06/Rese%C3%B1a-de-Jagaan-Jagasaki-El-Palomitr%C3%B3n.jpg?resize=750%2C422&ssl=1",
+            likes: 342
+        }
+    ]
+}
+
+let users = [david, vagabond_fan, jagaaanArt];
 
 users.forEach(user => {
     renderPublicUsers(user);
